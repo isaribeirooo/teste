@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Drogarias Ginobiotta</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e6f2ff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      background-color: white;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    }
+    .container h2 {
+      font-size: 28px;
+      margin-bottom: 40px;
+    }
+    .addresses {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .address-box {
+      background-color: #f1f1f1;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .address-box a {
+      text-decoration: none;
+      color: #007BFF;
+      font-weight: bold;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 40px;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Imagens do Ginobiotta -->
+    <img src="https://via.placeholder.com/800x300?text=Ginobiotta+Imagem+1" alt="Ginobiotta 1" />
+    <img src="https://via.placeholder.com/800x300?text=Ginobiotta+Imagem+2" alt="Ginobiotta 2" />
+
+    <!-- Quadro central -->
+    <h2>Escolha A DROGARIA mais próxima de você:</h2>
+    <div class="addresses">
+      <div class="address-box">
+        <a href="#">Rua Antonio Paganini 364, Chácara Cruzeiro do Sul - SP</a>
+      </div>
+      <div class="address-box">
+        <a href="#">Avenida Waldemar Calor Pereira, 726, Vila Talarico</a>
+      </div>
+      <div class="address-box">
+        <a href="#">Avenida Amador Bueno da Veiga, 2404, Penha de França</a>
+      </div>
+      <div class="address-box">
+        <a href="#">Avenida São Miguel, 2123, Vila Marieta</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
